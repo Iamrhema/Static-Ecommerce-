@@ -1,0 +1,289 @@
+/* global */
+
+body {
+    background-color: #28a745;
+}
+/* top header info */
+#top-header{
+    color:white;
+    font-weight: bold;
+    background: #000;
+}
+
+/* header styling */
+
+header {
+    background-image: url(../images/bullets.png);
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+}
+
+/* navigation bar */
+
+nav {
+    float: left;
+}
+
+.lists{
+    list-style: none;
+    text-decoration: none;
+}
+ul li {
+    color: yellow;
+    float: left;
+    width: 170px;
+    height: 40px;
+    background-image: url(./images/camo1.jpg);
+    opacity: .7;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul li, ul li a{
+  
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    background-color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+    text-decoration: none;
+}
+
+/* modal register form */
+.modal-content{
+    background-color: white;}
+
+/* Box containing the top choices */
+
+.container {
+    width: 100%;
+    padding-top: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+
+/* top choices container */
+
+.container h2 {
+    background: #000;
+    color: #ffffff;
+    width: 160px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+}
+
+
+/* container styler  */
+
+.container h2::after {
+    content: "";
+    border-top: 40px solid #000;
+    border-right: 40px solid transparent;
+    position: relative;
+    left: 60px;
+    top: 36px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    padding-right: 150px;
+}
+
+
+/* star rating */
+
+.product-bottom .fa {
+    color: #28a745;
+    font-size: 10px;
+}
+
+.product-bottom .h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.cancel{
+    text-decoration: line-through;
+}
+
+/* hover add to cart, buy and see  */
+
+.overlay {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: left;
+    width: 70px;
+}
+
+.product-top:hover .overlay {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.overlay .fa {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+}
+
+.overlay .btn-secondary {
+    background: transparent !important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+td,
+th {
+    width: 100px;
+    border: solid;
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    height: 75px;
+}
+
+th {
+    text-align: center;
+}
+
+div img {
+    height: 300px;
+    width: 600px;
+}
+
+
+/* table styling */
+
+table {
+    width: 250px;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    margin-left: 10px;
+    display: block;
+    color: white;
+    margin-top: -30px;
+}
+
+td {
+    height: 30%;
+    background-color: black;
+}
+
+.gunners:hover table {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+div h2 {
+    width: 200px;
+    height: 75px;
+}
+
+.gunners {
+    margin-left: 5px;
+    margin-top: 0;
+}
+/* for sale content */
+.side-band {
+    padding-bottom: 20px;
+    padding-left: 150px;
+    margin-left: 0px;
+}
+/* form background */
+.form{
+    background-color:mediumslateblue;
+    width: 100%;
+    padding:30px;
+}
+
+/* side bars, left and right */
+
+#pic2 {
+    float: left;
+    padding: 0;
+    margin-left: 10px;
+    width: 10%;
+    height: 900px;
+    background: url(../images/camo1.jpg)repeat;
+}
+
+#pic3 {
+    float: right;
+    padding: 0;
+    margin-right: 10px;
+    width: 10%;
+    height: 900px;
+    background: url(../images/camo1.jpg)repeat;
+}
+
+
+/* footer editing */
+footer {
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    height: 70px;
+    background-image: url(../images/bullets.png);
+}
+/* footer content */
+footer h3 {
+    text-align: center;
+    padding-top: 25px;
+}
+/*newsletter button*/
+.button{
+    float: right;
+    margin-right: 50px;
+
+}
+/* about us content */
+.introduction{
+    width:75%;
+}
+
+.italics{
+  font-style: italic; 
+}
+.name{
+    text-align: center;
+}
